@@ -1,0 +1,8 @@
+flake8
+bumpversion
+pytest
+pytest-xdist
+polyglot
+sacrebleu
+gensim
+ipdb

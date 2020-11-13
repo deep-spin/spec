@@ -1,0 +1,12 @@
+torch>=1.2.0
+numpy
+torchtext==0.5.0
+pytest
+sklearn
+future
+pyyaml
+setuptools
+six
+typing
+entmax
+nltk
