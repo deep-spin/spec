@@ -72,9 +72,7 @@ Or download all of them with the script `download_trained_models.sh`.
   
 For training the classifier-explainer-layperson setup, you can use the command `communicate` 
 and set the path to load the trained classifier via the `--load` argument.
-For example, 
-see [experiments/train_sst.sh](https://github.com/deep-spin/spec/blob/master/experiments/train_sst.sh) 
-and [experiments/communicate_sst.sh](https://github.com/deep-spin/spec/blob/master/experiments/communicate_sst.sh).
+For example, see [experiments/train_sst.sh](https://github.com/deep-spin/spec/blob/master/experiments/train_sst.sh) and [experiments/communicate_sst.sh](https://github.com/deep-spin/spec/blob/master/experiments/communicate_sst.sh).
 
 Take a look in the `experiments` folder for more examples.
 
@@ -84,8 +82,7 @@ Take a look in the `experiments` folder for more examples.
 (we'll provide a download link soon!)
 
 For now, enter in contact if you want access to 200 hundred annotated examples of IMDB and SNLI for each
-explainer in Table 4.  
-Check the supplemental material in our paper for more information about the annotation process.  
+explainer in Table 4. Check the supplemental material in our paper for more information about the annotation process.  
 
 
 ### MT experiments
