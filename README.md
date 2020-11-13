@@ -26,7 +26,7 @@ python3 -m spec --help
 ### Data
 
 1. Download the datasets with the script `download_datasets.sh` (1.6G). 
-Yelp dataset should be download separately (6G).
+Yelp dataset should be downloaded separately (6G).
 
 2. Then run the script `bash generate_datasets.sh` to create train/dev/test partitions for AgNews, IMDB and Yelp.
 
@@ -37,7 +37,7 @@ And, if you want to use only the embeddings for a particular corpus, i.e.,
 restrict the embeddings vocabulary to the corpus vocabulary for all downloaded corpus,
 use the script `scripts/reduce_embeddings_model_for_all_corpus.sh`. 
 
-    b) Download the already restriced-to-vocab glove embeddings with the script `download_restricted_glove_embeddings.sh`.
+    b) Download the already restricted-to-vocab glove embeddings with the script `download_restricted_glove_embeddings.sh`.
 
 Here is how your data folder will be organized:
 ```
