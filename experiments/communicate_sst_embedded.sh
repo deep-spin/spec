@@ -10,6 +10,7 @@ communicate_spec(){
   local topk=$2
   python3 -m spec communicate \
                           --seed 42 \
+                          --gpu-id 0  \
                           --output-dir "runs/communicate-embedded-sst-${activation}/" \
                           --load "data/saved-models/test-sst-${activation}/" \
                           --save "data/saved-models/communicate-embedded-sst-${activation}/" \

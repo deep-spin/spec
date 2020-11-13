@@ -71,10 +71,18 @@ After downloading and extracting, put them in `data/saved-models/`.
 Or download all of them with the script `download_trained_models.sh`. 
   
 For training the classifier-explainer-layperson setup, you can use the command `communicate` 
-and set the path to load the trained classifier via the `--load` argument.
-For example, see [experiments/train_sst.sh](https://github.com/deep-spin/spec/blob/master/experiments/train_sst.sh) and [experiments/communicate_sst.sh](https://github.com/deep-spin/spec/blob/master/experiments/communicate_sst.sh).
+and set the path to load the trained classifier via the `--load` argument. For example, see [experiments/train_sst.sh](https://github.com/deep-spin/spec/blob/master/experiments/train_sst.sh) and [experiments/communicate_sst.sh](https://github.com/deep-spin/spec/blob/master/experiments/communicate_sst.sh).
 
-Take a look in the `experiments` folder for more examples.
+Statistics will be displayed during training. Here is a snippet of what you'll see:
+```
+Loss    (val / epoch) | Prec.     Rec.    F1     (val / epoch) | ACC    (val / epoch) | MCC    (val / epoch) | TVD    (val / epoch) | ACC L  | ACC C  | 
+----------------------+----------------------------------------+----------------------+----------------------+----------------------+--------+--------+
+ 0.6495 (0.6495 /  1) | 0.8005   0.7562   0.7482 (0.7482 /  1) | 0.7579 (0.7579 /  1) | 0.5550 (0.5550 /  1) | 0.4105 (0.4105 /  1) | 0.7350 | 0.9504 |
+```
+The accuracy of the communication (ACC) represents the CSR proposed in our paper, ACC L is the accuracy of the layperson model, and ACC C is the accuracy of the classifier.
+
+Take a look in the `experiments` folder for more examples. 
+
 
 
 ### Human annotations
