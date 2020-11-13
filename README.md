@@ -63,15 +63,18 @@ python3 -m spec {train,predict,communicate} [OPTIONS]
 You can use the command `train` to train a classifier. 
 Alternatively, if you are interested only in the communication part,
 you can download trained classifiers here:
-- [softmax-based models](https://www.mediafire.com/file/vqqiabataunkczs/softmax-models.zip/file)
-- [entmax-based models](https://www.mediafire.com/file/eb994fafkjx2fvk/entmax15-models.zip/file)
-- [sparsemax-based models](https://www.mediafire.com/file/jjczy5dvp7nt6ih/sparsemax-models.zip/file)
+- [softmax-based models](https://www.mediafire.com/file/vqqiabataunkczs/softmax-models.zip/file) (743M)
+- [entmax-based models](https://www.mediafire.com/file/eb994fafkjx2fvk/entmax15-models.zip/file) (743M)
+- [sparsemax-based models](https://www.mediafire.com/file/jjczy5dvp7nt6ih/sparsemax-models.zip/file) (743M)
 
+After downloading and extracting, put them in `data/saved-models/`. 
 Or download all of them with the script `download_trained_models.sh`. 
   
 For training the classifier-explainer-layperson setup, you can use the command `communicate` 
 and set the path to load the trained classifier via the `--load` argument.
-For example, see `experiments/train_sst.sh` and `experiments/communicate_sst.sh`.
+For example, 
+see [experiments/train_sst.sh](https://github.com/deep-spin/spec/blob/master/experiments/train_sst.sh) 
+and [experiments/communicate_sst.sh](https://github.com/deep-spin/spec/blob/master/experiments/communicate_sst.sh).
 
 Take a look in the `experiments` folder for more examples.
 
