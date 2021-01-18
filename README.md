@@ -28,7 +28,7 @@ python3 -m spec --help
 1. Download the datasets with the script `download_datasets.sh` (1.6G). 
 Yelp dataset should be downloaded separately (6G).
 
-2. Then run the script `bash generate_datasets.sh` to create train/dev/test partitions for AgNews, IMDB and Yelp.
+2. Then run the script `bash generate_dataset_partitions.sh` to create train/dev/test partitions for AgNews, IMDB and Yelp.
 
 3. If you want to use GloVe embeddings (as in our paper), you have two options:
 
