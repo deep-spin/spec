@@ -17,10 +17,11 @@ python3 scripts/partition_agnews_corpus.py \
 # the original training file
 mv data/corpus/imdb/train data/corpus/imdb/train-original
 mkdir data/corpus/imdb/train
+mkdir data/corpus/imdb/dev
 
 # generate dev data from the training data for IMDB
 python3 scripts/partition_imdb_corpus.py \
-        'data/corpus/imdb/train/data.txt' \
+        'data/corpus/imdb/train-original/' \
         'data/corpus/imdb/train/data.txt' \
         'data/corpus/imdb/dev/data.txt'
 
