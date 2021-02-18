@@ -37,7 +37,7 @@ And, if you want to use only the embeddings for a particular corpus, i.e.,
 restrict the embeddings vocabulary to the corpus vocabulary for all downloaded corpus,
 use the script `scripts/reduce_embeddings_model_for_all_corpus.sh`. 
 
-    b) Download the already restricted-to-vocab glove embeddings with the script `download_restricted_glove_embeddings.sh`.
+    b) Download the already [restricted-to-vocab glove embeddings](http://www.mediafire.com/file/22dhb1dhfnt0bni/glove.zip/file) zipped file (1G), unzip it, and put each pickled file in the `embs/glove/` dir.
 
 Here is how your data folder will be organized:
 ```
